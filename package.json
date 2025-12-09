@@ -1,0 +1,27 @@
+{
+  "name": "gitbrance-demo",
+  "version": "1.0.0",
+  "description": "this is use to the git create the brance pratice repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandegarayagnik/gitbrance-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/chandegarayagnik/gitbrance-demo/issues"
+  },
+  "homepage": "https://github.com/chandegarayagnik/gitbrance-demo#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
